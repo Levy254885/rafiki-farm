@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --farm-green: #0b5d2a;
+  --farm-green-dark: #073d1d;
+  --farm-green-light: #14833d;
+  --farm-gold: #c69b4a;
+  --farm-gold-light: #e9d39f;
+  --farm-cream: #f7f7f2;
+  --farm-ink: #172019;
+  --farm-muted: #68736b;
+  --farm-line: #e4e8e3;
+  --background: #ffffff;
+  --foreground: #172019;
+}
+
+@theme inline {
+  --color-farm-green: var(--farm-green);
+  --color-farm-green-dark: var(--farm-green-dark);
+  --color-farm-green-light: var(--farm-green-light);
+  --color-farm-gold: var(--farm-gold);
+  --color-farm-gold-light: var(--farm-gold-light);
+  --color-farm-cream: var(--farm-cream);
+  --color-farm-ink: var(--farm-ink);
+  --color-farm-muted: var(--farm-muted);
+  --color-farm-line: var(--farm-line);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  color: var(--farm-ink);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.55;
+}
+
+@keyframes ken {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
+}
+
+.kenburn {
+  animation: ken 8s ease both;
+}
