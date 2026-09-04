@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --farm-green: #0b5d2a;
@@ -14,21 +16,6 @@
   --foreground: #172019;
 }
 
-@theme inline {
-  --color-farm-green: var(--farm-green);
-  --color-farm-green-dark: var(--farm-green-dark);
-  --color-farm-green-light: var(--farm-green-light);
-  --color-farm-gold: var(--farm-gold);
-  --color-farm-gold-light: var(--farm-gold-light);
-  --color-farm-cream: var(--farm-cream);
-  --color-farm-ink: var(--farm-ink);
-  --color-farm-muted: var(--farm-muted);
-  --color-farm-line: var(--farm-line);
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-inter);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -41,8 +28,12 @@ body {
 }
 
 @keyframes ken {
-  from { transform: scale(1); }
-  to { transform: scale(1.06); }
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06);
+  }
 }
 
 .kenburn {
