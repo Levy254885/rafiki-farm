@@ -1,26 +1,54 @@
 import type { GalleryPhoto } from "@/components/gallery/AnimatedGallery";
 
-/** Original Rafiki Farm photos (decoded into public/gallery at build time). */
+/** Public gallery photos (Unsplash stock until original farm photos are uploaded). */
 export const farmPhotos: GalleryPhoto[] = [
-  { id: "jersey-front", src: "/gallery/jersey-cow-front.jpg", title: "Jersey cow — pasture portrait", category: "Cattle", description: "Healthy dairy stock on green pasture." },
-  { id: "jersey-side", src: "/gallery/jersey-cow-side.jpg", title: "Jersey cow — side profile", category: "Cattle" },
-  { id: "jersey-rear", src: "/gallery/jersey-cow-rear.jpg", title: "Jersey cow — dairy conformation", category: "Cattle" },
-  { id: "jersey-grazing", src: "/gallery/jersey-cow-grazing.jpg", title: "Jersey cow grazing", category: "Cattle" },
-  { id: "jersey-grazing-2", src: "/gallery/jersey-cow-grazing-2.jpg", title: "Jersey cow at pasture", category: "Cattle" },
-  { id: "ayrshire-barn", src: "/gallery/ayrshire-cow-barn.jpg", title: "Ayrshire cow in the barn", category: "Cattle" },
-  { id: "holstein-barn", src: "/gallery/holstein-cow-barn.jpg", title: "Holstein dairy cow", category: "Cattle" },
-  { id: "holstein-side", src: "/gallery/holstein-cow-side.jpg", title: "Holstein cow — side view", category: "Cattle" },
-  { id: "holstein-pair", src: "/gallery/holstein-cows-pair.jpg", title: "Holstein dairy pair", category: "Cattle" },
-  { id: "holstein-group", src: "/gallery/holstein-cows-group.jpg", title: "Holstein herd", category: "Cattle" },
-  { id: "holstein-rear", src: "/gallery/holstein-cows-rear.jpg", title: "Holstein milking group", category: "Cattle" },
-  { id: "calves-barn", src: "/gallery/calves-barn.jpg", title: "Calves in the barn", category: "Calves" },
-  { id: "calves-group", src: "/gallery/calves-group.jpg", title: "Young calves", category: "Calves" },
-  { id: "calves-young", src: "/gallery/calves-young.jpg", title: "Calf pen", category: "Calves" },
-  { id: "calves-closeup", src: "/gallery/calves-closeup.jpg", title: "Calves up close", category: "Calves" },
-  { id: "boer-barn", src: "/gallery/boer-goats-barn.jpg", title: "Boer goats", category: "Goats" },
-  { id: "boer-family", src: "/gallery/boer-goat-family.jpg", title: "Boer doe with kids", category: "Goats" },
-  { id: "dorper-rams", src: "/gallery/dorper-rams.jpg", title: "Dorper rams", category: "Sheep" },
-  { id: "dorper-flock", src: "/gallery/dorper-flock.jpg", title: "Dorper flock in the field", category: "Sheep" },
-  { id: "dorper-pen", src: "/gallery/dorper-sheep-pen.jpg", title: "Dorper sheep in the pen", category: "Sheep" },
-  { id: "sheep-white", src: "/gallery/sheep-white-group.jpg", title: "White sheep group", category: "Sheep" },
+  {
+    id: "pasture",
+    src: "https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=1400&q=85",
+    title: "Open pasture",
+    category: "Cattle",
+    description: "Healthy grazing land for dairy and beef stock.",
+  },
+  {
+    id: "cattle-1",
+    src: "https://images.unsplash.com/photo-1555661059-7e755c1c3c1d?auto=format&fit=crop&w=1400&q=85",
+    title: "Dairy cattle",
+    category: "Cattle",
+  },
+  {
+    id: "cattle-2",
+    src: "https://images.unsplash.com/photo-1596733430284-f7437764b1a9?auto=format&fit=crop&w=1400&q=85",
+    title: "Herd in the field",
+    category: "Cattle",
+  },
+  {
+    id: "landscape",
+    src: "https://images.unsplash.com/photo-1500076656116-558758c991c1?auto=format&fit=crop&w=1400&q=85",
+    title: "Farm landscape",
+    category: "Cattle",
+  },
+  {
+    id: "cow-close",
+    src: "https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=1400&q=85",
+    title: "Dairy cow",
+    category: "Cattle",
+  },
+  {
+    id: "calves",
+    src: "https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?auto=format&fit=crop&w=1400&q=85",
+    title: "Young calves",
+    category: "Calves",
+  },
+  {
+    id: "goat",
+    src: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=1400&q=85",
+    title: "Farm goat",
+    category: "Goats",
+  },
+  {
+    id: "sheep",
+    src: "https://images.unsplash.com/photo-1484557985045-edf25e08da73?auto=format&fit=crop&w=1400&q=85",
+    title: "Sheep on the farm",
+    category: "Sheep",
+  },
 ];
