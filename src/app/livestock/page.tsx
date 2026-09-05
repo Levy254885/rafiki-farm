@@ -5,7 +5,7 @@ import { getPublishedLivestock } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Our Livestock",
-  description: "Browse quality livestock from Rafiki Farm in Murang'a, Kenya.",
+  description: "Browse quality livestock from Rafiki Farm in Naromoru, Nyeri County, Kenya.",
 };
 
 export default function LivestockPage() {

@@ -14,8 +14,8 @@ export const defaultSettings: FarmSettings = {
   phone: "+254 787 277 528",
   whatsapp: "254787277528",
   email: "info@rafikifarm.co.ke",
-  address: "Samaru, Murang'a, Kenya",
-  location: "Samaru, Murang'a, Kenya",
+  address: "Naromoru, Nyeri County, Kenya",
+  location: "Naromoru, Nyeri County, Kenya",
   openingHours: "Mon–Sat · 8:00 AM–5:30 PM",
 };
 

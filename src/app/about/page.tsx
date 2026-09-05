@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Rafiki Farm in Samaru, Murang'a — quality livestock and practical farming knowledge.",
+  description: "Learn about Rafiki Farm in Naromoru, Nyeri County — quality livestock and practical farming knowledge.",
 };
 
 export default function AboutPage() {
@@ -24,9 +24,12 @@ export default function AboutPage() {
             knowledge. We work with Kenyan farmers who want reliable animals and clear information.
           </p>
           <p className="mt-3 text-farm-muted">
-            Based in Samaru, Murang&apos;a, the farm focuses on responsible breeding, everyday nutrition and
-            straightforward management practices — not slogans.
+            Based in <strong className="text-farm-ink">Naromoru, Nyeri County, Kenya</strong>, the farm focuses on
+            responsible breeding, everyday nutrition and straightforward management practices — not slogans.
           </p>
+          <div className="mt-5 inline-flex items-center gap-2 rounded-full border border-[#c5d6c9] bg-farm-cream px-4 py-2 text-sm font-bold text-farm-ink">
+            <span aria-hidden>📍</span> Naromoru · Nyeri County
+          </div>
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {[
               ["Our story", "Growing with farmers, one healthy animal at a time."],
