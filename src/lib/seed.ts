@@ -11,8 +11,8 @@ import type {
 export const defaultSettings: FarmSettings = {
   farmName: "Rafiki Farm",
   tagline: "Quality Livestock. Better Farming.",
-  phone: "+254 712 345 678",
-  whatsapp: "254712345678",
+  phone: "+254 787 277 528",
+  whatsapp: "254787277528",
   email: "info@rafikifarm.co.ke",
   address: "Samaru, Murang'a, Kenya",
   location: "Samaru, Murang'a, Kenya",
@@ -57,6 +57,8 @@ export const seedLivestock: Livestock[] = [
   { id: "rf004", name: "Jersey Cow", slug: "jersey-cow", category: "Cows", breed: "Jersey", gender: "Female", age: "4 Years", weight: "430 kg", price: 150000, currency: "KES", shortDescription: "Compact dairy cow with a practical farm profile.", description: "Compact dairy cow with a practical farm profile.", healthStatus: "Healthy", vaccination: "Up to date", availability: "Sold", featured: false, published: true, images: img("https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=900&q=85", "Jersey Cow"), createdAt: ts(), updatedAt: ts() },
   { id: "rf005", name: "Friesian Calf", slug: "friesian-calf", category: "Calves", breed: "Friesian", gender: "Male", age: "6 Months", weight: "180 kg", price: 45000, currency: "KES", shortDescription: "Young Friesian calf under careful feeding.", description: "Young Friesian calf receiving careful feeding and routine health management.", healthStatus: "Healthy", vaccination: "Up to date", availability: "Available", featured: true, published: true, images: img("https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?auto=format&fit=crop&w=900&q=85", "Friesian Calf"), createdAt: ts(), updatedAt: ts() },
   { id: "rf006", name: "Boer Goat", slug: "boer-goat", category: "Goats", breed: "Boer", gender: "Male", age: "14 Months", weight: "65 kg", price: 28000, currency: "KES", shortDescription: "Healthy meat goat with good body condition.", description: "Healthy meat goat with good body condition.", healthStatus: "Healthy", vaccination: "Up to date", availability: "Available", featured: false, published: true, images: img("https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=900&q=85", "Boer Goat"), createdAt: ts(), updatedAt: ts() },
+  { id: "rf007", name: "Dorper Sheep", slug: "dorper-sheep", category: "Sheep", breed: "Dorper", gender: "Male", age: "16 Months", weight: "55 kg", price: 22000, currency: "KES", shortDescription: "Hardy Dorper ram with strong body condition.", description: "Hardy Dorper sheep selected for meat production and easy care on Kenyan farms.", healthStatus: "Healthy", vaccination: "Up to date", availability: "Available", featured: true, published: true, images: img("https://images.unsplash.com/photo-1484557985045-edf25e08da73?auto=format&fit=crop&w=900&q=85", "Dorper Sheep"), createdAt: ts(), updatedAt: ts() },
+  { id: "rf008", name: "Dorper Ewe", slug: "dorper-ewe", category: "Sheep", breed: "Dorper", gender: "Female", age: "2 Years", weight: "48 kg", price: 20000, currency: "KES", shortDescription: "Breeding Dorper ewe from the farm flock.", description: "Breeding Dorper ewe maintained for flock growth and meat production.", healthStatus: "Healthy", vaccination: "Up to date", availability: "Available", featured: false, published: true, images: img("https://images.unsplash.com/photo-1516467508143-3f5d3b0d2b8b?auto=format&fit=crop&w=900&q=85", "Dorper Ewe"), createdAt: ts(), updatedAt: ts() },
 ];
 
 export const seedProducts: Product[] = [
@@ -86,4 +88,6 @@ export const seedGallery: GalleryItem[] = [
   { id: "g4", title: "Farm landscape", category: "Farm", image: "https://images.unsplash.com/photo-1500076656116-558758c991c1?auto=format&fit=crop&w=900&q=85", featured: false, createdAt: ts() },
   { id: "g5", title: "Herd", category: "Livestock", image: "https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?auto=format&fit=crop&w=900&q=85", featured: false, createdAt: ts() },
   { id: "g6", title: "Young stock", category: "Calves", image: "https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?auto=format&fit=crop&w=900&q=85", featured: false, createdAt: ts() },
+  { id: "g7", title: "Dorper sheep", category: "Sheep", image: "https://images.unsplash.com/photo-1484557985045-edf25e08da73?auto=format&fit=crop&w=900&q=85", featured: true, createdAt: ts() },
+  { id: "g8", title: "Sheep flock", category: "Sheep", image: "https://images.unsplash.com/photo-1516467508143-3f5d3b0d2b8b?auto=format&fit=crop&w=900&q=85", featured: false, createdAt: ts() },
 ];

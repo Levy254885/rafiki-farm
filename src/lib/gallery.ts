@@ -1,6 +1,6 @@
 import type { GalleryPhoto } from "@/components/gallery/AnimatedGallery";
 
-/** Public gallery photos (Unsplash stock until original farm photos are uploaded). */
+/** Public gallery photos — cattle, calves, goats and Dorper sheep only (no dogs). */
 export const farmPhotos: GalleryPhoto[] = [
   {
     id: "pasture",
@@ -42,13 +42,20 @@ export const farmPhotos: GalleryPhoto[] = [
   {
     id: "goat",
     src: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=1400&q=85",
-    title: "Farm goat",
+    title: "Boer goat",
     category: "Goats",
   },
   {
-    id: "sheep",
+    id: "dorper-1",
     src: "https://images.unsplash.com/photo-1484557985045-edf25e08da73?auto=format&fit=crop&w=1400&q=85",
-    title: "Sheep on the farm",
+    title: "Dorper sheep",
+    category: "Sheep",
+    description: "Dorper sheep on the farm.",
+  },
+  {
+    id: "dorper-2",
+    src: "https://images.unsplash.com/photo-1516467508143-3f5d3b0d2b8b?auto=format&fit=crop&w=1400&q=85",
+    title: "Sheep flock",
     category: "Sheep",
   },
 ];
