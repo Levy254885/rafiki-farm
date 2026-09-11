@@ -236,7 +236,7 @@ export default function HomePage() {
           <FadeUp>
             <div>
               <p className="text-[11px] font-black uppercase tracking-[2px] text-[#bcd6c3]">Have a question?</p>
-              <h2 className="text-4xl font-semibold tracking-tight">Let's talk farming.</h2>
+              <h2 className="text-4xl font-semibold tracking-tight">{'Let\'s talk farming.'}</h2>
               <p className="text-[#d5e4d8]">Ask about livestock, products, availability or practical farm guidance.</p>
             </div>
           </FadeUp>
