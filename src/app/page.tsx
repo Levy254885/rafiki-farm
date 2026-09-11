@@ -60,8 +60,8 @@ export default function HomePage() {
           <ScaleIn>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://images.unsplash.com/photo-1500076656116-558758c991c1?auto=format&fit=crop&w=1100&q=85"
-              alt="Green agricultural farm"
+              src="/gallery/cattle-herd.jpg"
+              alt="Rafiki Farm dairy cattle herd"
               className="h-[330px] w-full rounded-2xl object-cover md:h-[470px]"
             />
           </ScaleIn>
@@ -236,7 +236,7 @@ export default function HomePage() {
           <FadeUp>
             <div>
               <p className="text-[11px] font-black uppercase tracking-[2px] text-[#bcd6c3]">Have a question?</p>
-              <h2 className="text-4xl font-semibold tracking-tight">Let&apos;s talk farming.</h2>
+              <h2 className="text-4xl font-semibold tracking-tight">Let's talk farming.</h2>
               <p className="text-[#d5e4d8]">Ask about livestock, products, availability or practical farm guidance.</p>
             </div>
           </FadeUp>
