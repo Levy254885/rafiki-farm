@@ -1,6 +1,6 @@
 import type { GalleryPhoto } from "@/components/gallery/AnimatedGallery";
 
-/** Farm gallery — cows, Dorper sheep and young stock from Rafiki Farm. */
+/** Farm gallery — cows, Dorper sheep, Boer goats and young stock from Rafiki Farm. */
 export const farmPhotos: GalleryPhoto[] = [
   {
     id: "jersey-front",
@@ -34,6 +34,18 @@ export const farmPhotos: GalleryPhoto[] = [
     category: "Cattle",
   },
   {
+    id: "cattle-herd",
+    src: "/gallery/cattle-herd.jpg",
+    title: "Dairy cattle herd",
+    category: "Cattle",
+  },
+  {
+    id: "friesian-calf",
+    src: "/gallery/friesian-calf.jpg",
+    title: "Friesian calf",
+    category: "Calves",
+  },
+  {
     id: "calves-1",
     src: "/gallery/calves-barn.jpg",
     title: "Young calves",
@@ -50,6 +62,36 @@ export const farmPhotos: GalleryPhoto[] = [
     src: "/gallery/calves-young.jpg",
     title: "Calves in the barn",
     category: "Calves",
+  },
+  {
+    id: "boer-group",
+    src: "/gallery/boer-goats-group.jpg",
+    title: "Boer goat flock",
+    category: "Goats",
+  },
+  {
+    id: "boer-standing",
+    src: "/gallery/boer-goat-standing.jpg",
+    title: "Boer goat",
+    category: "Goats",
+  },
+  {
+    id: "boer-side",
+    src: "/gallery/boer-goat-side.jpg",
+    title: "Boer buck",
+    category: "Goats",
+  },
+  {
+    id: "boer-profile",
+    src: "/gallery/boer-goat-profile.jpg",
+    title: "Boer goat profile",
+    category: "Goats",
+  },
+  {
+    id: "boer-young",
+    src: "/gallery/boer-goat-young.jpg",
+    title: "Young Boer goat",
+    category: "Goats",
   },
   {
     id: "dorper-flock",

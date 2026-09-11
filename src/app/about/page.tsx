@@ -12,8 +12,8 @@ export default function AboutPage() {
       <div className="mx-auto grid max-w-[1240px] items-center gap-12 px-4 md:grid-cols-2 sm:px-5">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://images.unsplash.com/photo-1500076656116-558758c991c1?auto=format&fit=crop&w=1100&q=85"
-          alt="Rafiki Farm landscape"
+          src="/gallery/cattle-herd.jpg"
+          alt="Rafiki Farm dairy cattle herd"
           className="h-[330px] w-full rounded-2xl object-cover md:h-[470px]"
         />
         <div>
